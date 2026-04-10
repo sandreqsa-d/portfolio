@@ -243,7 +243,7 @@ function Terminal() {
   }
 
 
-  //rendering
+  //rendering-----------------------------------------------------------------------
   return (
     <div className="terminal-wrap" onClick={() => inputRef.current?.focus()}>
       <div className="terminal-body">
@@ -284,3 +284,4 @@ function Terminal() {
   );
 }
 export default Terminal;
+
